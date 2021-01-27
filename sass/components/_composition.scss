@@ -1,0 +1,62 @@
+.composition {
+    position: relative;
+    &__photo {
+        width: 50%;
+        -webkit-filter: drop-shadow(1px 1px 2px #222);
+        filter: drop-shadow(1px 1px 2px #222);
+        border-radius: 2px;
+        z-index: 10;
+        transition: all .2s;
+        position: absolute;
+
+        @include respond(tab-port) {
+            float: left;
+            position: relative;
+            width: 28.333333%;
+        }
+        
+        &--p1 {
+            left: 0;
+            top: 0;
+            width: 35%;            
+
+            @include respond(tab-port) {
+                top: 0;
+                left: 0;
+                width: 33%;                
+            }
+        }
+
+        &--p2 {
+            left: 66%;
+            top: 0;
+            width: 35%;
+
+            @include respond(tab-port) {
+                top: 0;
+                left: 0;
+                width: 33%;                
+                z-index: 100;
+            }
+        }
+
+        &--p3 {
+            left: 33%;
+            top: 50%;
+            width: 35%;
+
+            @include respond(tab-port) {
+                top: 0;
+                left: 0;
+                width: 33%;
+            }
+        }
+
+        &:hover {
+            transform: scale(1.1) translateY(0.2rem);
+            -webkit-filter: drop-shadow(1.5px 1.5px 4px #222);
+            filter: drop-shadow(1.5px 1.5px 4px #222);
+            z-index: 20;
+        }
+    }
+}
