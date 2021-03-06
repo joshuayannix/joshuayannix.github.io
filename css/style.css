@@ -411,7 +411,7 @@ body {
     .card__picture--5 {
       background-image: linear-gradient(to right bottom, #396b2a, #1b2e21), url(../img/dollar.jpg); }
     .card__picture--6 {
-      background-image: linear-gradient(to right bottom, #838383, #2e2e2e), url(../img/office-hall.jpg); }
+      background-image: linear-gradient(to right bottom, #dd0d0d, #201c1c), url(../img/office-hall.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 400;
@@ -439,7 +439,7 @@ body {
     .card__heading-span--5 {
       background-image: linear-gradient(to right bottom, rgba(57, 107, 42, 0.9), rgba(27, 46, 33, 0.9)); }
     .card__heading-span--6 {
-      background-image: linear-gradient(to right bottom, rgba(131, 131, 131, 0.9), rgba(46, 46, 46, 0.9)); }
+      background-image: linear-gradient(to right bottom, rgba(226, 19, 19, 0.9), rgba(46, 46, 46, 0.9)); }
   .card__details {
     padding: 1rem 3rem;
     color: darkslategrey; }
@@ -469,14 +469,16 @@ body {
     width: 20%;
     position: absolute;
     left: 5%;
-    top: 5%; }
+    top: 5%; 
+    width: 28%}
     .card__svg-icon-2 {
-      top: -5%;
-      left: 5%; }
+      top: 5%;
+      left: 5%; 
+      width: 35%}
     .card__svg-icon-3 {
-      width: 18%;
-      top: 7%;
-      left: 7%; }
+      top: 5%;
+      left: 5%; 
+      width: 25%;}
     .card__svg-icon-4 {
       top: 0%;
       left: -10%;
