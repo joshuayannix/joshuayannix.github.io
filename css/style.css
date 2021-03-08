@@ -398,7 +398,7 @@ body {
       .card__side--back-5 {
         background-image: linear-gradient(to right bottom, #396b2a, #1b2e21); }
       .card__side--back-6 {
-        background-image: linear-gradient(to right bottom, #838383, #2e2e2e); }
+        background-image: linear-gradient(to right bottom, #dd0d0d, #201c1c); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -603,6 +603,7 @@ body {
       transform: skewX(2deg) skewY(1deg);
       text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2); }
   .popup__btn-2 {
+    width: 90%;
     background-image: linear-gradient(to right bottom, #9c1283, #aa2b15);
     color: white; }
   .popup__header-3 {
@@ -614,6 +615,7 @@ body {
       transform: skewX(2deg) skewY(1deg);
       text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2); }
   .popup__btn-3 {
+    width: 90%;
     background-image: linear-gradient(to right bottom, #44b2e6, #05044d);
     color: white; }
   .popup__header-4 {
